@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 /**
@@ -29,7 +31,10 @@ public class DriverFactory {
 			driver = new FirefoxDriver();
 			
 		}else if(driverName.equals("IE")){
-			// TODO 
+			System.setProperty(Driver.IE, Driver.IE_PATH);
+			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
+			capabilities.setCapability("ignoreZoomSetting", true);
 		}else if(driverName.equals(DriverNames.PHANTOM)){
 			// TODO 
 		}
