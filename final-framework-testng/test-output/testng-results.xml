@@ -2,54 +2,99 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54406" started-at="2019-02-15T07:52:05Z" finished-at="2019-02-15T07:53:00Z">
+  <suite name="Default suite" duration-ms="48512" started-at="2019-02-22T16:29:33Z" finished-at="2019-02-22T16:30:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54406" started-at="2019-02-15T07:52:05Z" finished-at="2019-02-15T07:53:00Z">
-      <class name="com.training.project.week1.RETC_015">
-        <test-method status="FAIL" signature="setUpBeforeClass()[pri:0, instance:com.training.project.week1.RETC_015@3ffc5af1]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-02-15T13:22:05Z" finished-at="2019-02-15T13:22:05Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test name="Default test" duration-ms="48512" started-at="2019-02-22T16:29:33Z" finished-at="2019-02-22T16:30:22Z">
+      <class name="com.training.project.week2.RETC_043">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.training.project.week2.RETC_043@3ffc5af1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-22T21:59:33Z" finished-at="2019-02-22T21:59:33Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="responsive"]/li[8]/a"}
-  (Session info: chrome=72.0.3626.81)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+pping IBM-cck@firefox-extensions.ibm.com to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\IBM-cck@firefox-extensions.ibm.com
+1550852979698	addons.xpi	INFO	Mapping ietab@ip.cn to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\ietab@ip.cn
+1550852979698	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\webdriver-staging
+1550852979698	addons.xpi	INFO	Mapping {25A1388B-6B18-46c3-BEBA-A81915D0DE8F} to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\{25A1388B-6B18-46c3-BEBA-A81915D0DE8F}.xpi
+1550852979698	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1550852979699	addons.xpi	DEBUG	Existing add-on IBM-cck@firefox-extensions.ibm.com in app-profile
+1550852979699	addons.xpi	DEBUG	Existing add-on ietab@ip.cn in app-profile
+1550852979700	addons.xpi	DEBUG	Existing add-on {25A1388B-6B18-46c3-BEBA-A81915D0DE8F} in app-profile
+1550852979700	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1550852979700	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1550852979701	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1550852979701	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping jaws-esr@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\jaws-esr@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1550852979701	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1550852979702	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1550852979702	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on jaws-esr@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1550852979705	addons.xpi	INFO	Mapping {7F91CC4E-C8E7-4326-86AE-1671D8B7E612} to C:\Users\IBM_ADMIN\AppData\Roaming\Mozilla\Extensions\{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\{7F91CC4E-C8E7-4326-86AE-1671D8B7E612}
+1550852979705	addons.xpi	DEBUG	Existing add-on {7F91CC4E-C8E7-4326-86AE-1671D8B7E612} in app-system-user
+1550852979707	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1550852979708	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1550852979710	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 3373: TypeError: addon is null
+
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
 System info: host: 'IBM983-PC0GHXBW', ip: '192.168.43.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64676}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir7504_13680}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 48cbd29d664445b369c2423db649ca61
-*** Element info: {Using=xpath, value=//*[@id="responsive"]/li[8]/a}]]>
+Driver info: driver.version: FirefoxDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="responsive"]/li[8]/a"}
-  (Session info: chrome=72.0.3626.81)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+pping IBM-cck@firefox-extensions.ibm.com to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\IBM-cck@firefox-extensions.ibm.com
+1550852979698	addons.xpi	INFO	Mapping ietab@ip.cn to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\ietab@ip.cn
+1550852979698	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\webdriver-staging
+1550852979698	addons.xpi	INFO	Mapping {25A1388B-6B18-46c3-BEBA-A81915D0DE8F} to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\{25A1388B-6B18-46c3-BEBA-A81915D0DE8F}.xpi
+1550852979698	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1550852979699	addons.xpi	DEBUG	Existing add-on IBM-cck@firefox-extensions.ibm.com in app-profile
+1550852979699	addons.xpi	DEBUG	Existing add-on ietab@ip.cn in app-profile
+1550852979700	addons.xpi	DEBUG	Existing add-on {25A1388B-6B18-46c3-BEBA-A81915D0DE8F} in app-profile
+1550852979700	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1550852979700	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1550852979701	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1550852979701	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping jaws-esr@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\jaws-esr@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1550852979701	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1550852979702	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1550852979702	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on jaws-esr@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1550852979705	addons.xpi	INFO	Mapping {7F91CC4E-C8E7-4326-86AE-1671D8B7E612} to C:\Users\IBM_ADMIN\AppData\Roaming\Mozilla\Extensions\{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\{7F91CC4E-C8E7-4326-86AE-1671D8B7E612}
+1550852979705	addons.xpi	DEBUG	Existing add-on {7F91CC4E-C8E7-4326-86AE-1671D8B7E612} in app-system-user
+1550852979707	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1550852979708	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1550852979710	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 3373: TypeError: addon is null
+
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
 System info: host: 'IBM983-PC0GHXBW', ip: '192.168.43.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64676}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir7504_13680}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 48cbd29d664445b369c2423db649ca61
-*** Element info: {Using=xpath, value=//*[@id="responsive"]/li[8]/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at com.training.pom.LoginPOM_RETC14.clickRegisterBtn(LoginPOM_RETC14.java:98)
-	at com.training.project.week1.RETC_015.setUpBeforeClass(RETC_015.java:37)
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.training.utility.DriverFactory.getDriver(DriverFactory.java:31)
+	at com.training.project.week2.RETC_043.beforeClass(RETC_043.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -74,21 +119,57 @@ Session ID: 48cbd29d664445b369c2423db649ca61
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+pping IBM-cck@firefox-extensions.ibm.com to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\IBM-cck@firefox-extensions.ibm.com
+1550852979698	addons.xpi	INFO	Mapping ietab@ip.cn to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\ietab@ip.cn
+1550852979698	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\webdriver-staging
+1550852979698	addons.xpi	INFO	Mapping {25A1388B-6B18-46c3-BEBA-A81915D0DE8F} to C:\Users\IBM_ADMIN\AppData\Local\Temp\anonymous6726873697698008687webdriver-profile\extensions\{25A1388B-6B18-46c3-BEBA-A81915D0DE8F}.xpi
+1550852979698	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1550852979699	addons.xpi	DEBUG	Existing add-on IBM-cck@firefox-extensions.ibm.com in app-profile
+1550852979699	addons.xpi	DEBUG	Existing add-on ietab@ip.cn in app-profile
+1550852979700	addons.xpi	DEBUG	Existing add-on {25A1388B-6B18-46c3-BEBA-A81915D0DE8F} in app-profile
+1550852979700	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1550852979700	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1550852979701	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1550852979701	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping jaws-esr@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\jaws-esr@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1550852979701	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1550852979701	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1550852979702	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1550852979702	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1550852979703	addons.xpi	DEBUG	Existing add-on jaws-esr@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1550852979704	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1550852979705	addons.xpi	INFO	Mapping {7F91CC4E-C8E7-4326-86AE-1671D8B7E612} to C:\Users\IBM_ADMIN\AppData\Roaming\Mozilla\Extensions\{ec8030f7-c20a-464f-9b0e-13a3a9e97384}\{7F91CC4E-C8E7-4326-86AE-1671D8B7E612}
+1550852979705	addons.xpi	DEBUG	Existing add-on {7F91CC4E-C8E7-4326-86AE-1671D8B7E612} in app-system-user
+1550852979707	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1550852979708	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1550852979710	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 3373: TypeError: addon is null
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 32 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="SKIP" signature="validTest()[pri:1, instance:com.training.project.week1.RETC_015@3ffc5af1]" name="validTest" duration-ms="2" started-at="2019-02-15T13:23:00Z" finished-at="2019-02-15T13:23:00Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="f()[pri:0, instance:com.training.project.week2.RETC_043@3ffc5af1]" name="f" duration-ms="9" started-at="2019-02-22T22:00:22Z" finished-at="2019-02-22T22:00:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.training.project.week1.RETC_015@3ffc5af1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-15T13:23:00Z" finished-at="2019-02-15T13:23:00Z">
+        </test-method> <!-- f -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.training.project.week2.RETC_043@3ffc5af1]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-22T22:00:22Z" finished-at="2019-02-22T22:00:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.project.week1.RETC_015 -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.training.project.week2.RETC_043 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
