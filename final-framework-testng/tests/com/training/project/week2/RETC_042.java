@@ -1,3 +1,4 @@
+//To verify whether application displays added post in all post 
 package com.training.project.week2;
 
 import org.testng.annotations.Test;

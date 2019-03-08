@@ -1,3 +1,4 @@
+//TO verify whether application allows admin to view added property details in Home screen
 package com.training.project.week2;
 
 import org.testng.annotations.Test;

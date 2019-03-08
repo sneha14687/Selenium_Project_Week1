@@ -8,16 +8,16 @@ package com.training.bean;
 public class DBBean {
 	private String url; 
 	private String driver; 
-	private String userName; 
+	private String username; 
 	private String password;
 	
 	public DBBean(){}
 	
-	public DBBean(String url, String driver, String userName, String password) {
+	public DBBean(String url, String driver, String username, String password) {
 		super();
 		this.url = url;
 		this.driver = driver;
-		this.userName = userName;
+		this.username = username;
 		this.password = password;
 	}
 
@@ -38,11 +38,11 @@ public class DBBean {
 	}
 
 	public String getUserName() {
-		return userName;
+		return username;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUserName(String username) {
+		this.username = username;
 	}
 
 	public String getPassword() {
@@ -52,7 +52,6 @@ public class DBBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
 	
 	
 }

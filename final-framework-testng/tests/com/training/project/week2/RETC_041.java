@@ -1,3 +1,4 @@
+//To verify whether application display comments added by the user in admin page
 package com.training.project.week2;
 
 import org.testng.annotations.Test;

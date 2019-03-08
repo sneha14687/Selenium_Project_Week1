@@ -1,3 +1,4 @@
+//To Verify whether application allows the admin to logout from the application
 package com.training.project.week1;
 
 import java.io.FileInputStream;

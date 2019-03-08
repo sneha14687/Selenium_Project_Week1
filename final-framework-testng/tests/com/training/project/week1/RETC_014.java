@@ -1,3 +1,4 @@
+//To verify whether application allows the admin to generate new password
 package com.training.project.week1;
 
 

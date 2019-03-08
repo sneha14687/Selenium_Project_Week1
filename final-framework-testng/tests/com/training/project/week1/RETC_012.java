@@ -1,3 +1,4 @@
+//To verify whether application allows the admin to recover the password
 package com.training.project.week1;
 
 

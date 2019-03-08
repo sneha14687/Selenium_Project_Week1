@@ -1,3 +1,4 @@
+//To verify whether application allows admin to create property details based on the Feature created
 package com.training.project.week2;
 
 import org.testng.annotations.Test;

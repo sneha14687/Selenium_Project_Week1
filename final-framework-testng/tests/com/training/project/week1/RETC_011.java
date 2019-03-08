@@ -1,3 +1,4 @@
+//To Verify whether application allows registered admin to login into application
 package com.training.project.week1;
 
 import static org.testng.Assert.assertEquals;
